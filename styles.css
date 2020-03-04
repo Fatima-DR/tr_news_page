@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/*  on pages <1000px, fine to use full width*/
+/* on pages >1000px, width of main content should be restricted*/
+
+
+@media only screen and (max-width: 1000px){
+    body {
+        background-color: lavender;
+    }
+    main {
+        width: 100%
+    }
+}
+@media only screen and (max-width: 800px){
+    body {
+        background-color: lightpink;
+    }
+}
+@media only screen and (max-width: 600px){
+    body {
+        background-color: lime;
+    }
+}
+@media only screen and (max-width: 400px){
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 200px){
+    body {
+        background-color: red   ;
+    }
+}
